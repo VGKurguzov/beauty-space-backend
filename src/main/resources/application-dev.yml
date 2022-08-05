@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/beauty_space_test}
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:postgres}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+auth:
+  jwtSecret: 1re6uBZ2r3wf24qF4cfPhFghEtyPh45yhZh4gjh45nb4j5h456h4uiht4kjh4jhbj4bjJlkv4j5klj4ljk4lJj4
+  jwtExpirationMs: 6000000

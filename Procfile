@@ -1,0 +1,1 @@
+web java -Dserver.port=$PORT -jar target/beauty-space-backend-0.0.1.jar
